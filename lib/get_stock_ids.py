@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+# 抓取股票代碼
+# Note:可能之後變成腳本每天就跑一次就好
 def get_twse_stock_ids():
     url = 'https://isin.twse.com.tw/isin/C_public.jsp?strMode=2'#本國上市證券國際證券辨識號碼一覽表
     response = requests.get(url)

@@ -1,12 +1,13 @@
 import logging
 import yfinance as yf
-import pandas as pd # 資料處理套件
-import datetime as dt # 時間套件
+import pandas as pd
+import datetime as dt
 import talib
 from .get_stock_ids import get_twse_stock_ids
 
 logging.getLogger("yfinance").setLevel(logging.CRITICAL)
 
+#抓取股票資料
 def get_stock_data(day = 5):
     with open('stock_ids.txt', 'r', encoding='utf-8-sig') as file:
         stock_ids = file.read().splitlines()

@@ -28,6 +28,7 @@ numpy==1.26.4
 pandas==2.2.2
 pandasql==0.7.3
 peewee==3.17.5
+pip==24.3.1
 platformdirs==4.2.2
 pydantic==2.7.4
 pydantic_core==2.18.4
@@ -37,6 +38,8 @@ requests==2.31.0
 six==1.16.0
 soupsieve==2.5
 SQLAlchemy==2.0.31
+TA-Lib==0.4.28
+twstock==1.4.0
 typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.2
